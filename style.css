@@ -6,11 +6,13 @@ title{
 ul {
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
+    gap: 20px;
+    margin-right: 10px;
+    
 }
 a{
     text-decoration: none;
-
+    height: 20px;
 
 }
 

@@ -1,4 +1,5 @@
 
+
 p
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -56,4 +57,42 @@ h2
 {
  font-family: Georgia, 'Times New Roman', Times, serif;
  color: rgba(91, 67, 67, 0.815);
+}
+
+.footer_logo{
+    width: 30%;
+    margin-left: 10px;
+
+}
+.footer_up
+{
+
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+
+}
+
+.footer_mid
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+.card__item
+{
+    border: 1px solid;
+    border-color: rgb(250, 170, 230);
+    display: flex;
+    min-height: 300px;
+    margin-bottom: 10px;
+}
+.card__desc
+{
+    padding: 30%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

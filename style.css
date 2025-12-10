@@ -49,20 +49,64 @@ a:hover
     height: 70px;
     width: 100px;
 }
-.footer_wrap{
-background-color: rgb(247, 191, 209);
-display: flex;
+.footer_wrap
+{
+    background-color: rgb(241, 207, 227);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 
 {
- font-family: Georgia, 'Times New Roman', Times, serif;
- color: rgba(91, 67, 67, 0.815);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(91, 67, 67, 0.815);
 }
 .footer_logo{
     width: 30%;
-    padding-left: 10px;
+    margin-left: 10px;
 }
-.footer_up{
-    align-items: end;
+
+.footer__menu
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__mid
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon
+{
+    width: 50px;
+    height: 50px;
+}
+.info
+{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(91, 67, 67, 0.815);
+    margin-left: 10px;
+
+
+}
+
+.name
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    font-size: larger;
+    color: white;
+    margin-left: 10px;
+}
+.icons
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    gap: 5px;
 }
